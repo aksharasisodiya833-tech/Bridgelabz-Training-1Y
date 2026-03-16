@@ -1,0 +1,17 @@
+import java.util.*;
+class Natural1{
+	public static void main(String args []){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the value : ");
+		int n=sc.nextInt();
+		int sum=0;
+		int i=1;
+		while(i<=n){
+			sum+=i;
+			i++;
+		}
+		int formula=n*(n+1)/2;
+		System.out.println("the sum is"+sum);
+		System.out.println("sum using formula is"+formula);
+	}
+}
